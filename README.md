@@ -3,7 +3,7 @@
 * 作者刘明星
 
 本模块实现了支付宝手机支付sdk的封装，避免了wap支付接口每次支付还需要输入支付宝账号的麻烦。用本地sdk支付仅需要输入6位数字密码即可，其方便程度与微信支付一样。调用方式：
-```ruby
+```javascript
 var alipay = require("com.mamashai.alipay");
 alipay.alipay({
 	partner: "2088311250002935",
